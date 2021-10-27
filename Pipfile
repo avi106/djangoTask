@@ -5,9 +5,12 @@ name = "pypi"
 
 [packages]
 django = "*"
+django-debug-toolbar = "*"
 mysqlclient = "*"
-
-[requires]
-python_version = "3.10"
+djangorestframework = "*"
+gunicorn = "*"
 
 [dev-packages]
+
+[requires]
+python_version = "3.9"
